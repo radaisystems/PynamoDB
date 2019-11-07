@@ -11,6 +11,8 @@ six==1.10.0
 coverage==4.5.3
 mock==2.0.0
 pytest==4.4.0
+# Due to https://github.com/boto/botocore/issues/1872. Remove after botocore fixes.
+python-dateutil==2.8.0
 pytest-cov==2.6.1
 pytest-mock==1.6.0
 python-coveralls==2.9.1
